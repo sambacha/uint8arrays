@@ -34,13 +34,12 @@
     "url": "https://github.com/achingbrain/uint8arrays.git"
   },
   "scripts": {
-    "prepare": "aegir build --no-bundle",
     "test": "aegir test",
     "lint": "aegir lint",
     "release": "aegir release",
     "release-minor": "aegir release --type minor",
     "release-major": "aegir release --type major",
-    "build": "aegir build"
+    "compile": "aegir build"
   },
   "license": "MIT",
   "dependencies": {
